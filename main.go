@@ -17,7 +17,7 @@ func main() {
 		fyne.NewContainerWithLayout(
 			layout.NewVBoxLayout(),
 			layout.NewSpacer(),
-			widget.NewLabel("こんにちは、フィーネ"),
+			widget.NewLabel("こんにちは、ファイン"),
 			widget.NewLabel("これは日本語のラベルです"),
 			widget.NewButton("これはボタンです", func() {
 				dialog.ShowInformation("確認", "これはダイアログです", w)
