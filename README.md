@@ -15,6 +15,10 @@ $ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 - [`fyne` コマンドで各種リソースをバンドルする方法](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
 - [Fyne で日本語を扱う](https://lusingander.netlify.app/posts/200614-fyne-font/)
 
+公式のチュートリアルにもリソースのバンドルについて追記されました.
+
+[Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
+
 ----
 
 Sample application that uses different fonts in Fyne
@@ -30,6 +34,10 @@ See the Blog below for more information.
 
 - [About the `fyne` command](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
 - [About fonts](https://lusingander.netlify.app/posts/200614-fyne-font/)
+
+An official tutorial has also been added on resource bundling.
+
+[Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
 
 ----
 
