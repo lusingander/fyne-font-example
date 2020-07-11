@@ -1,6 +1,8 @@
 fyne-font-example
 ====
 
+<img src="./resource/image.png" width=300>
+
 Fyne でフォントを扱うサンプルアプリケーション
 
 `bundle.go` は [fyne command](https://github.com/fyne-io/fyne/tree/master/cmd/fyne) を利用して生成しています.
