@@ -17,7 +17,7 @@ $ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 
 公式のチュートリアルにもリソースのバンドルについて追記されました.
 
-[Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
+- [Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
 
 ----
 
@@ -37,7 +37,7 @@ See the Blog below for more information.
 
 An official tutorial has also been added on resource bundling.
 
-[Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
+- [Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
 
 ----
 
