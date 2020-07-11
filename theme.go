@@ -9,7 +9,9 @@ import (
 
 type myTheme struct{}
 
-func (myTheme) TextFont() fyne.Resource { return resourceMplus1cRegularTtf }
+// return bundled font resource
+func (myTheme) TextFont() fyne.Resource     { return resourceMplus1cRegularTtf }
+func (myTheme) TextBoldFont() fyne.Resource { return resourceMplus1cBoldTtf }
 
 func (myTheme) BackgroundColor() color.Color      { return theme.LightTheme().BackgroundColor() }
 func (myTheme) ButtonColor() color.Color          { return theme.LightTheme().ButtonColor() }
@@ -26,7 +28,6 @@ func (myTheme) FocusColor() color.Color           { return theme.LightTheme().Fo
 func (myTheme) ScrollBarColor() color.Color       { return theme.LightTheme().ScrollBarColor() }
 func (myTheme) ShadowColor() color.Color          { return theme.LightTheme().ShadowColor() }
 func (myTheme) TextSize() int                     { return theme.LightTheme().TextSize() }
-func (myTheme) TextBoldFont() fyne.Resource       { return theme.LightTheme().TextBoldFont() }
 func (myTheme) TextItalicFont() fyne.Resource     { return theme.LightTheme().TextItalicFont() }
 func (myTheme) TextBoldItalicFont() fyne.Resource { return theme.LightTheme().TextBoldItalicFont() }
 func (myTheme) TextMonospaceFont() fyne.Resource  { return theme.LightTheme().TextMonospaceFont() }
