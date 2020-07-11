@@ -7,6 +7,7 @@ Fyne でフォントを扱うサンプルアプリケーション
 
 ```
 $ fyne bundle mplus-1c-regular.ttf > bundle.go
+$ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 ```
 
 詳細については以下の記事に記載しています.
@@ -22,6 +23,7 @@ Sample application that uses different fonts in Fyne
 
 ```
 $ fyne bundle mplus-1c-regular.ttf > bundle.go
+$ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 ```
 
 See the Blog below for more information.
