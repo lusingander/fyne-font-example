@@ -3,7 +3,7 @@ module github.com/lusingander/fyne-font-example
 go 1.13
 
 require (
-	fyne.io/fyne v1.3.1
+	fyne.io/fyne v1.3.2
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200707082815-5321531c36a2 // indirect
 	github.com/stretchr/testify v1.6.1 // indirect
 	golang.org/x/image v0.0.0-20200618115811-c13761719519 // indirect
