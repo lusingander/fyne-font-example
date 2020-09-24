@@ -1,17 +1,16 @@
 fyne-font-example
 ====
 
-<img src="./resource/image.png" width=300>
 
 [Fyne](https://fyne.io) で日本語フォントを利用するサンプルアプリケーションです。
 
 Sample application that uses different fonts in [Fyne](https://fyne.io).
 
-----
+<img src="./resource/image.png" width=300>
 
 ## Summary
 
-### 0. `fyne` コマンドをインストール / Install `fyne` command
+#### 0. `fyne` コマンドをインストール / Install `fyne` command
 
 ```
 $ go get fyne.io/fyne/cmd/fyne
@@ -21,7 +20,7 @@ Usage: fyne [command] [parameters], where command is one of:
 ...
 ```
 
-### 1. フォントファイルを用意して `fyne bundle` コマンドを実行 / Prepare the font file and execute `fyne bundle` command
+#### 1. フォントファイルを用意して `fyne bundle` コマンドを実行 / Prepare the font file and execute `fyne bundle` command
 
 ```
 $ fyne bundle mplus-1c-regular.ttf > bundle.go
@@ -38,7 +37,11 @@ var resourceMplus1cRegularTtf = &fyne.StaticResource{
 	StaticContent: []byte{
 ```
 
-### 2. カスタムテーマを作成しフォントリソースを読み込む / Create the custom theme and load font resources
+See [bundle.go](./bundle.go).
+
+> Warning: the file size is very large
+
+#### 2. カスタムテーマを作成しフォントリソースを読み込む / Create the custom theme and load font resources
 
 ```go
 type myTheme struct{}
@@ -47,7 +50,9 @@ func (myTheme) TextFont() fyne.Resource     { return resourceMplus1cRegularTtf }
 ...
 ```
 
-### 3. カスタムテーマを読み込む / Load the custom theme
+See [theme.go](./theme.go).
+
+#### 3. カスタムテーマを読み込む / Load the custom theme
 
 ```go
 ...
@@ -56,7 +61,8 @@ func (myTheme) TextFont() fyne.Resource     { return resourceMplus1cRegularTtf }
 ...
 ```
 
-----
+See [main.go](./main.go).
+
 
 ## もう少し詳しく
 
@@ -76,7 +82,6 @@ $ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 
 - [Bundling resources | Develop using Fyne](https://developer.fyne.io/tutorial/bundle)
 
-----
 
 ## A little more details
 
