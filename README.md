@@ -8,6 +8,8 @@ Sample application that uses different fonts in [Fyne](https://fyne.io).
 
 <img src="./resource/image.png" width=300>
 
+> If you prefer to work with the GUI, see [fyne-theme-generator](https://github.com/lusingander/fyne-theme-generator).
+
 ## Summary
 
 #### 0. `fyne` コマンドをインストール / Install `fyne` command
