@@ -6,6 +6,10 @@ fyne-font-example
 
 Sample application that uses different fonts in [Fyne](https://fyne.io).
 
+> これは Fyne v1.x についての説明です. Fyne v2.x について知りたい場合は [v2](../v2) 以下を参照してください.
+>
+> This is a description for Fyne v1.x. If you want to know for Fyne v2.x, please refer to the [v2](../v2) directory.
+
 <img src="./resource/image.png" width=300>
 
 > If you prefer to work with the GUI, see [fyne-theme-generator](https://github.com/lusingander/fyne-theme-generator).
