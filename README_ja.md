@@ -8,10 +8,12 @@ fyne-font-example
 
 [Fyne](https://fyne.io) で日本語フォントを利用するサンプルアプリケーションです。
 
+> [!IMPORTANT]
 > これは Fyne v2.x についての説明です. Fyne v1.x 以前のバージョンについて知りたい場合は [v1](./v1) 以下を参照してください.
 
 <img src="./resource/image-v2.png" width=300>
 
+> [!TIP]
 > 🎨 GUI でテーマを作成したい場合は [fyne-theme-generator](https://github.com/lusingander/fyne-theme-generator) も試してみてください.
 
 ## Summary
@@ -45,7 +47,8 @@ var resourceMplus1cRegularTtf = &fyne.StaticResource{
 
 詳細は [./v2/bundle.go](./v2/bundle.go) を参照してください.
 
-> 注: ファイルサイズがかなり大きくなります
+> [!WARNING]
+> ファイルサイズがかなり大きくなります
 
 #### 2. カスタムテーマを作成しフォントリソースを読み込む
 

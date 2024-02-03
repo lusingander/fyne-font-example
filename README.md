@@ -7,10 +7,12 @@ English / [日本語](./README_ja.md)
 
 Sample application that uses different fonts in [Fyne](https://fyne.io).
 
+> [!IMPORTANT]
 > This is a description for Fyne v2.x. If you want to know for Fyne v1.x or earlier, please refer to the [v1](./v1) directory.
 
 <img src="./resource/image-v2.png" width=300>
 
+> [!TIP]
 > 🎨 Prefer to work with the GUI? Try the [fyne-theme-generator](https://github.com/lusingander/fyne-theme-generator)!
 
 ## Summary
@@ -44,7 +46,8 @@ var resourceMplus1cRegularTtf = &fyne.StaticResource{
 
 See [./v2/bundle.go](./v2/bundle.go).
 
-> Warning: the file size is very large
+> [!WARNING]
+> the file size is very large
 
 #### 2. Create the custom theme and load font resources
 
