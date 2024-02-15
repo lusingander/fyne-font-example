@@ -105,6 +105,6 @@ An official tutorial has also been added on resource bundling.
 
 ----
 
-[M+ FONTS](http://mplus-fonts.osdn.jp/) is included and used as a sample font file.
+[M+ FONTS](https://mplusfonts.github.io) is included and used as a sample font file.
 
-http://mplus-fonts.osdn.jp/
+https://mplusfonts.github.io

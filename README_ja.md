@@ -107,6 +107,6 @@ $ fyne bundle -append mplus-1c-bold.ttf >> bundle.go
 
 ----
 
-サンプルのフォントとして [M+ FONTS](http://mplus-fonts.osdn.jp/) を使用しています.
+サンプルのフォントとして [M+ FONTS](https://mplusfonts.github.io) を使用しています.
 
-http://mplus-fonts.osdn.jp/
+https://mplusfonts.github.io
