@@ -10,7 +10,7 @@ import (
 
 func main() {
 	a := app.New()
-	a.Settings().SetTheme(&myTheme{})
+	a.Settings().SetTheme(MyTheme())
 	w := a.NewWindow("font")
 	w.Resize(fyne.NewSize(300, 200))
 	w.SetContent(
